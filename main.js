@@ -1,4 +1,5 @@
 function closetToZero(list) {
+  //si le tab est vide
   if (!list.length) {
     return 0;
   }
@@ -14,7 +15,9 @@ function closetToZero(list) {
   }
   return close;
 }
-let items = [7, -10, 13, 8, 4, -7.2, -12, -3.7, 3.5, -9.6, 6.5, -1.7, -6.2, 7,1.7];
+let items = [1, -10, 13, 8, 4, -1];
 console.log("Result: " + closetToZero(items));
+
+
 
 
